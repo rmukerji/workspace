@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>This is the html file</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+<script type="text/javascript" src="temp.js"></script>
+</head>
+<body>
+ 	<!-- <form action = "Display.do" method = "get">
+ 		query<input type="text" name="query">
+ 		<input type="submit" value="Submit"/>
+ 	</form> -->
+ 	<script type ="text/javascript">
+ 	alert("6+7=" + myFunction(6, 7));
+ 	</script>
+ 	<div id="container">
+		<br>
+		<form action="Display.do" method="get">
+			<select id="select" name="query" style="width: 115px;">
+				<option value="api_log_colo2_mysql2_Apr2014" title="Title for Item 1">Apr2014</option>
+				<option value="api_log_colo2_mysql2_Aug2014" title="Title for Item 2">Aug2014</option>
+				<option value="api_log_colo2_mysql2_Dec2014" title="Title for Item 3">Dec2014</option>
+			</select>
+			<input type="submit" value="Submit"/>
+		</form>
+	</div>
+</body>
+</html>

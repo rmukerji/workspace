@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Mar 16 08:39:40 CDT 2015
+org.eclipse.jst.jee.server\:DatabaseDemo=/Users/rohitm/Downloads/apache-tomcat-7.0.59/wtpwebapps/DatabaseDemo
+org.eclipse.jst.jee.server\:test=/Users/rohitm/Downloads/apache-tomcat-7.0.59/wtpwebapps/test
